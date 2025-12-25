@@ -10,6 +10,6 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: black;
+  background: black; /* Backup background */
   overflow: hidden; 
 }
