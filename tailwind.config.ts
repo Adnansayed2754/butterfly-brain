@@ -6,7 +6,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./public/**/*.html",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}", 
+    "./api/**/*.{py,js,ts}", // Just in case
+    "./*.{js,ts,jsx,tsx,mdx}" // Files in the root
   ],
   theme: {
     extend: {
